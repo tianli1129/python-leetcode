@@ -1,3 +1,4 @@
+#solution
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
@@ -10,4 +11,5 @@ class Solution:
                     return False
         return not stack
 
+#testcase
 print(Solution().isValid(s="([])"))

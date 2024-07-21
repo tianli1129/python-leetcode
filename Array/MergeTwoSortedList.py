@@ -6,6 +6,7 @@ class ListNode:
         self.val = val
         self.next = next
 
+#solution
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         dummyHead = ListNode(0)
@@ -23,6 +24,7 @@ class Solution:
 
         return dummyHead.next
 
+#testcase
 l1 = ListNode(1,None)
 l2 = ListNode(2,None)
 l3 = ListNode(3,None)
